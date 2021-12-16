@@ -766,6 +766,18 @@ footer small {
   border-right: solid 3px #fff;
 }
 
+.tent {
+  background-image: url(../images/bg-green.svg);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+.tent .screenshot img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
 .dd {
   background-image: url(../images/bg-green.svg);
   background-repeat: repeat-y;
@@ -876,6 +888,44 @@ footer small {
   }
 }
 
+.blender {
+  background-image: url(../images/bg-yellow.svg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  text-align: center;
+}
+
+.blender p {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.blender img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.blender .flex {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .blender .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
 .hobby {
   background-image: url(../images/bg-green.svg);
   background-repeat: repeat-y;
@@ -887,7 +937,7 @@ footer small {
 }
 
 .hobby .hobby-group p {
-  background-color: rgba(255, 255, 255, 0.539);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 80%;
   padding: 20px;
   border-radius: 30px;

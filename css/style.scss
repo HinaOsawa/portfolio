@@ -658,6 +658,17 @@ footer {
   }
   
 }
+// *************** キャンプ場ぺージ********************
+.tent {
+  background-image: url(../images/bg-green.svg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  .screenshot img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 // ***************コーポレートぺージ********************
 .dd{
@@ -756,6 +767,39 @@ footer {
   }
 }
 
+// ***************3Dモデリングぺージ********************
+.blender {
+  background-image: url(../images/bg-yellow.svg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  text-align: center;
+  p {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  img {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto
+  }
+  .flex {
+    display: block;
+    @include tab {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
 // ***************前職・趣味での制作物ぺージ********************
 .hobby {
   background-image: url(../images/bg-green.svg);
@@ -764,7 +808,7 @@ footer {
   .hobby-group{
     margin-top: 50px;
     p {
-      background-color: rgba(255, 255, 255, 0.539);
+      background-color: rgba(255, 255, 255, 0.5);
       width: 80%;
       padding: 20px;
       border-radius: 30px;
